@@ -27,6 +27,16 @@ select * from students;
 UPDATE students
 SET student_name = 'LEO OCEAN' WHERE student_id = '101' ;
 
+--2)101 id öğrencinin yasini 22 olarak güncelleyinin
+update students set student_age=21 where  student_id='101';--hata vercek kisitlama var
+
+--3) 101 id öğrencinin ismini 'ALI CAN' olarak güncelleyinin
+
+--4)109 idli öğrencinin doğumtarihini 2010-12-11 olarak update yapın.
+
+--5)ilk iki veriden sonra 5 veriyi listeleyiniz
+
+--6)yasi en buyyuk 4. 5.  6. kişilerin bilgilerini listeleyiniz
 
 
 
